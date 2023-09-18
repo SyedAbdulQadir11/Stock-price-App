@@ -155,25 +155,4 @@ if show_plots:
     if st.button('Hide Plots'):
       show_plots=False
 st.write("Developed by: [Syed Abdul Qadir Gilani](https://www.linkedin.com/in/syedabdulqadir/)")
-# adding lstm
-st.write('<p style="color:salmon;font-size:25px",font-weight:bold>LSTM</p>',unsafe_allow_html=True)
-# footer
-st.markdown(
-    """
-<style>
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: salmon;
-    color: white;
-    text-align: center;
-}
-</style>
-<div class="footer">
-<p>Made with ❤ by Syed Abdul Qadir Gilani</p>
-</div>
-""",
-    unsafe_allow_html=True
-)
+
